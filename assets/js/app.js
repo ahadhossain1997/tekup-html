@@ -639,4 +639,6 @@
     };
     google.maps.event.addDomListener(window, 'load', init);
   }
+  var currentYear = new Date().getFullYear();
+  $('#current-year').text(currentYear);
 })(jQuery);

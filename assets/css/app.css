@@ -3193,6 +3193,7 @@ h1.post__title {
 }
 .tekup-hero-rating {
   max-width: 225px;
+  z-index: 1;
 }
 @media (max-width: 991px) {
   .tekup-hero-rating {
